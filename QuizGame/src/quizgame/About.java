@@ -38,7 +38,7 @@ public class About extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(51, 255, 204));
@@ -62,13 +62,13 @@ public class About extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Name2");
-        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 110, -1));
+        jLabel4.setText("Fahim Shakil");
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, 170, -1));
 
         jLabel5.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setText("Name1");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 220, 110, -1));
+        jLabel5.setText("Abue Ammar");
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 220, 160, 40));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/quizgame/Buttons/icons8-administrator-male-26.png"))); // NOI18N
         jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 230, -1, -1));
@@ -89,11 +89,11 @@ public class About extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("Comic Sans MS", 1, 24)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setText("Bla bla bla blaa blaa");
-        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 160, -1, -1));
+        jLabel8.setText("We are not responsible for any kind of violation in game. So play it with own risk! ");
+        jPanel3.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, -1, -1));
 
-        jButton1.setText("jButton1");
-        jPanel3.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 260, -1, -1));
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/quizgame/Buttons/icons8-right-52.png"))); // NOI18N
+        jPanel3.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 230, -1, -1));
 
         jPanel2.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 380, 1070, 350));
 
@@ -147,7 +147,7 @@ public class About extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton4;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

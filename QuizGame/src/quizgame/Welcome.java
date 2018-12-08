@@ -52,11 +52,16 @@ public class Welcome extends javax.swing.JFrame {
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTextField1.setBackground(new java.awt.Color(51, 255, 204));
-        jTextField1.setFont(new java.awt.Font("Comic Sans MS", 1, 28)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Comic Sans MS", 1, 25)); // NOI18N
         jTextField1.setForeground(new java.awt.Color(255, 255, 255));
         jTextField1.setText("Username");
         jTextField1.setBorder(null);
         jTextField1.setCaretColor(new java.awt.Color(0, 255, 204));
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
         jPanel5.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 60, 150, 40));
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -73,23 +78,27 @@ public class Welcome extends javax.swing.JFrame {
         jPanel5.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 60, 40, 40));
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/quizgame/Buttons/icons8-right-52.png"))); // NOI18N
-        jPanel5.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1000, 280, -1, -1));
+        jPanel5.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 250, -1, -1));
 
-        jPanel1.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 350, 1140, 370));
+        jPanel1.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 350, 1080, 330));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1078, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 689, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
     /**
      * @param args the command line arguments
